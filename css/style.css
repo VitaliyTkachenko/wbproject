@@ -147,7 +147,7 @@ body {
   text-align: center;
   width: 220px;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
   font-weight: 700;
   line-height: 1;
@@ -231,4 +231,98 @@ body {
   font-size: 15px;
   font-weight: 400;
   text-align: center;
+}
+
+/* SERVICES */
+.services {
+  padding-top: 170px;
+  background-color: #e4fdf9;
+}
+
+.services__title {
+  text-align: center;
+  margin-bottom: 35px;
+
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.services__info {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 95px auto;
+
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.services__inner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.services__item {
+  background-color: #fff;
+  max-width: 370px;
+  width: 33.33333%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* нужно поправить чтобы были расстояния margin между 1-2 30px 2-3 30px (сейчас со стороны каждого итема margin 10px */
+}
+
+.services__img {
+  margin-top: 60px;
+}
+
+.services__name {
+  margin-top: 40px;
+
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.services__text {
+  margin: 25px 50px 0;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.srvc-btn {
+  margin-top: 45px;
+  padding: 20px 15px;
+
+  text-align: center;
+  width: 150px;
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #212121;
+  transition: 0.3s linear;
+}
+
+.srvc-btn:hover {
+  border: 2px solid #fff;
+  background-color: #00897b;
+  color: #fff;
 }
