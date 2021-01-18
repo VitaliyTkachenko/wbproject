@@ -420,6 +420,11 @@ body {
   transition: 0.3s linear;
 }
 
+.works-btn:hover {
+  background-color: #00897b;
+  color: #fff;
+}
+
 .works__inner {
   display: flex;
   flex-direction: row;
@@ -448,8 +453,8 @@ body {
 .works__item__title {
   text-align: center;
   position: relative;
-  z-index: 3;
-  margin-top: 170px;
+  z-index: 0;
+  margin-top: 150px;
 
   color: #ffffff;
   font-family: "Open Sans";
@@ -460,11 +465,49 @@ body {
 .works__item__text {
   text-align: center;
   position: relative;
-  z-index: 3;
+  z-index: 0;
   margin-top: 10px;
 
   color: #ffffff;
   font-family: "Open Sans";
   font-size: 15px;
   font-weight: 600;
+}
+
+.works__item:hover .works__item_img {
+  opacity: 0.5;
+}
+
+.works__item:hover .works__item__title {
+  z-index: 3;
+}
+
+.works__item:hover .works__item__text {
+  z-index: 3;
+}
+
+.view-btn {
+  margin-top: 115px;
+  margin-bottom: 135px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+  width: 220px;
+  height: 70px;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: center;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #00897b;
+  transition: 0.3s linear;
+}
+
+.view-btn:hover {
+  background-color: #00897b;
+  color: #fff;
 }
