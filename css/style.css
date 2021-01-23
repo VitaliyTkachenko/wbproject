@@ -511,3 +511,118 @@ body {
   background-color: #00897b;
   color: #fff;
 }
+
+/* PLANS */
+
+.plans {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-color: #f0f0f0;
+  text-align: center;
+  align-items: center;
+}
+
+.plans__title {
+  margin-bottom: 30px;
+
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.plans__text {
+  margin: 0 auto 125px auto;
+  max-width: 620px;
+
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.plans__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plans__item {
+  width: 370px;
+  position: relative;
+  padding: 50px 95px 60px;
+  height: 665px;
+
+  background-color: #fff;
+}
+
+.plans__item__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 370px;
+}
+
+.plans__item__content {
+  width: 180px;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.plans__item__name {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.plans__item__price {
+  display: flex;
+  justify-content: left;
+  height: 36px;
+  margin-bottom: 115px;
+}
+
+.dollar {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: top;
+  height: 100%;
+  line-height: 100%;
+}
+
+.cost {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 400;
+  vertical-align: top;
+  height: 50px;
+  line-height: 36px;
+}
+
+.period {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  vertical-align: text-bottom;
+  height: 17px;
+  line-height: 17px;
+  align-self: flex-end;
+}
+
+.plans__item__property {
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 300;
+}
