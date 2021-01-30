@@ -552,6 +552,7 @@ body {
   position: relative;
   padding: 50px 95px 60px;
   height: 665px;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.35);
 
   background-color: #fff;
 }
@@ -571,6 +572,13 @@ body {
   flex-direction: column;
 }
 
+.plans__item__content hr {
+  width: 178px;
+  height: 1px;
+  border: 1px solid #000000;
+  opacity: 0.5;
+}
+
 .plans__item__name {
   color: #ffffff;
   font-family: "Open Sans";
@@ -583,7 +591,7 @@ body {
   display: flex;
   justify-content: left;
   height: 36px;
-  margin-bottom: 115px;
+  margin-bottom: 45px;
 }
 
 .dollar {
@@ -621,6 +629,8 @@ body {
 }
 
 .plans__item__property {
+  margin-top: 50px;
+  margin-bottom: 15px;
   color: #212121;
   font-family: "Open Sans";
   font-size: 17px;
